@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Security</title>
+		<link rel="stylesheet" type="text/css" href="main.css" />
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.3.15/slick.css"/>				
+	</head>
+	<body>
+		<div id="site-container" ng-app="securityApp" ng-controller="mainController">
+			<div class="nav-containers">
+				<div id="top-header" class="nav">
+					<div class="header-options">Customer Login</div>
+					<div class="header-options">Support</div>
+					<div class="header-options">Blog</div>
+					<div class="header-options">Contact Us</div>
+					<div class="item-container">
+						<i id="cart" class="header-options fa fa-shopping-cart"></i>
+					</div>
+				</div>
+				<div id="logo"><span id="bold">Control</span>Scan</div>
+				<div id="nav2" class="nav">
+					<div class="header-options">SECURITY</div>
+					<div class="header-options">COMPLIANCE</div>
+					<div class="header-options">ABOUT</div>
+					<div class="header-options">KNOWLEDGE CENTER</div>
+					<div class="header-options">PARTNER PROGRAM</div>
+					<div id="search" class="item-container">
+						<i id="search" class="header-options fa fa-search"></i>
+					</div>
+				</div>				
+			</div>
+			<div id="sect1" class="section">
+				<div class="section-wrap">
+					<h1>Simplified Security starts here.</h1>
+					<span id="section1-content">Don't leave your data security to chance. Leave it to us.</span>
+				</div>
+			</div>
+			<div id="sect2" class="section">
+				<div class="section-wrap">
+					Looking for more information on our security solutions?
+				</div>
+				<button id="request-information">Request Information</button>
+			</div>
+			<div id="bread-crumbs"><a href="">Home</a>&nbsp;/&nbsp;<a href="">Security</a></div>
+			<div id="sect3" class="section">
+				<div id="sect3-wrap" class="section-wrap">
+					<span id="section3-header">Take security off your To-do list.  We'll manage it for you.</span>
+					<br /><br />
+					<span id="section3-copy"> 
+					Ensuring that your business is secure and protected against hackers and network breaches can be challenging. Not only is IT security
+					a complex undertaking, but managing your security on your own, including meeting government regulations and industry standards,
+					distracts you from focusing on running your business.
+					<br /><br />
+					Even more challenging, small businesses are required to maintain the same level of data security as a larger corporation,
+					but with fewer resources and a smaller IT staff.					
+					</span>
+				</div>
+			</div>
+			<div id="sect4" class="section">
+				<div class="items-container">
+					<div id="business" class="sect4-item">
+						<img src="img/suitcase-icon.png" />
+						<br />
+						I need to secure my
+						<br />
+						<h3>Business</h3>
+					</div>
+					<div id="website-container" ng-switch on="info" class="sect4-item animate-switch-container">
+						<div id="website" class="animate-switch" ng-click="showMoreInfo()" ng-switch-when="hide">
+							<img src="img/website-icon.png" />
+							<br />
+							I need to secure my
+							<br />
+							<h3>Website</h3>
+						</div>
+						<div id="website-info" class="animate-switch" ng-click="showLessInfo()" ng-switch-when="show">
+							<div id="website-info-img-container">
+								<img src="img/website-icon.png" />
+							</div>
+							<div id="website-info-copy-container">
+								ControlScan is a Managed Security Services
+								Provider (MSSP) that specializes in delivering
+								the technical expertise and security know-how
+								required to keep your business secure.
+							</div>
+						</div>
+					</div>	
+					<div id="security" class="sect4-item">
+						<img src="img/security-icon.png" />
+						<br />
+						I need to secure my
+						<br />
+						<h3>Security Strength</h3>
+					</div>
+				</div>
+			</div>
+			<div id="sect5" class="section">
+				<div class="logos-container">
+					<div id="pci1" class="sect5-logo logo-fix">
+						<img src="img/pci-logo.png" />
+					</div>
+					<div id="linux" class="sect5-logo logo-fix">
+						<img src="img/linux-logo.png" />
+					</div>
+					<div id="pci2" class="sect5-logo logo-fix">
+						<img src="img/pci-logo.png" />
+					</div>
+					<div id="security-logo" class="sect5-logo logo-fix">
+						<img src="img/security.gif" />
+					</div>
+					<div id="gwapt" class="sect5-logo">
+						<img src="img/gwapt-logo.png" />
+					</div>
+					<div id="ceh" class="sect5-logo">
+						<img src="img/ceh-logo.png" />
+					</div>										
+				</div>	
+			</div> 
+			<div id="sect6" class="section">
+				<div class="items-container">
+					<div id="case-study" class="sect6-item">
+						<div class="sect6-body">
+							<h6>JANUARY 6, 2015</h6>
+							<br />
+							<p>Payment Security and the
+								SMB: The Fifth Annual
+								Survey of Level 4 Merchant
+								PCI Compliance Trends</p>
+							<ul class="sect6-links">
+								<li>Managed Security Services</li>
+								<li id="payments">Payments</li>
+								<li>SMB</li>
+							</ul>
+						</div>
+						<div id="case-light" class="sect6-icon">
+							<img src="img/checklist-icon.png" />
+						</div>
+						<div id="case" class="sect6-title">
+							CASE STUDY
+						</div>
+					</div>					
+					<div id="data-sheet" class="sect6-item">
+						<div class="sect6-body">
+							<h6>MARCH 28, 2013</h6>
+							<br />
+							<p>Next Generation Firewall
+							Data Sheet</p>
+							<ul class="sect6-links">
+								<li id="man-secure2">Managed Security Services</li>
+								<li>SMB</li>
+							</ul>
+						</div>
+						<div id="data-light" class="sect6-icon">
+							<img src="img/graph-icon.png" />
+						</div>
+						<div id="data" class="sect6-title">
+							DATA SHEET
+						</div>								
+					</div>
+					<div id="webinar" class="sect6-item">
+						<div class="sect6-body">														
+							<h6>JULY 14, 2012</h6>
+							<br />
+							<p>Social Networking –<br />
+							5 Tips to Connect
+							With Your Customers</p>
+							<ul class="sect6-links">
+								<li id="man-secure3">Managed Security Services</li>
+								<li>Retail + eCommerce</li>
+							</ul>
+						</div>
+						<div id="web-light" class="sect6-icon">
+							<img src="img/graph-icon.png" />
+						</div>
+						<div id="web" class="sect6-title">
+							WEBINAR
+						</div>												
+					</div>
+				</div>
+			</div>
+			<div id="social-footer" class="section">
+				<div class="social-container">
+					<div id="fb" class="sect7-logo">
+						<img src="img/fb-icon.png" />
+					</div>
+					<div id="linked" class="sect7-logo">
+						<img src="img/linked-icon.png" />
+					</div>
+					<div id="twit" class="sect7-logo">
+						<img src="img/twit-icon.png" />
+					</div>
+					<div id="gmail" class="sect7-logo">
+						<img src="img/gmail-icon.png" />
+					</div>
+					<div id="word" class="sect7-logo">
+						<img src="img/word-icon.png" />
+					</div>
+				</div>
+			</div>
+			<div id="links-footer" class="section">
+				<ul id="site-links">
+					<li id="privacy">Privacy</li>
+					<li id="terms">Terms of Use</li>
+					<li id="site-map">Site Map</li>
+					<li id="man-sub">Manage Subscription</li>
+				</ul>
+			</div>
+			<div id="site-footer">
+				<div id="site-footer-wrapper">
+					<div id="norton-logo">
+						<img src="img/norton-logo.png" />
+					</div>
+					<div id="copyright">
+						© Copyright 2014 ControlScan. All rights reserved.	
+					</div>
+					<div id="ip-address">
+					<span id="purple">Your IP Address:</span> {{currentIP}}
+					</div>
+				</div>
+			</div>									
+		</div>
+
+		<!-- JavaScript Includes -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-animate.js"></script>
+     	<script src="app.js"></script>
+
+	    <script type="text/javascript">
+	        $(document).ready(function(){
+	            $('.items-container').slick({
+  					slidesToShow: 3,
+  					accessibility: false,
+  					adaptiveHeight: true,
+  					arrows: false
+	            });
+	            $('.logos-container').slick({
+  					slidesToShow: 6,
+  					accessibility: false,
+  					adaptiveHeight: true,
+  					arrows: false
+	            });
+	            $('.social-container').slick({
+  					slidesToShow: 5,
+  					accessibility: false,
+  					adaptiveHeight: true,
+  					arrows: false
+	            });		            	            
+	        });
+	    </script>
+
+	</body>
+
+
