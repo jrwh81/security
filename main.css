@@ -29,6 +29,10 @@ h3{
 h6{
 	font-size: 1em;
 }
+
+.pointer{
+	cursor: pointer;
+}
 #site-container{
 	max-width: 1600px;
 	min-width: 960px;
@@ -86,6 +90,7 @@ h6{
 	margin-left: 12.5%;
 	margin-top: 2.1%;
 	position: absolute;
+	cursor: pointer;
 }
 
 .section{
@@ -129,7 +134,8 @@ h6{
 	border: 1px solid white;
 	color: white;
 	border-radius: 3px;
-	margin-left: 5%;	
+	margin-left: 5%;
+	cursor: pointer;	
 }
 
 #section3-header{
@@ -164,6 +170,7 @@ h6{
 	text-align: center;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	cursor: pointer;
 }
 
 .sect4-item img{
@@ -196,6 +203,7 @@ h6{
 #website-container{
 	padding-bottom: 0;
 	padding-top: 0;
+	cursor: pointer;
 }
 
 .animate-switch-container {
@@ -210,7 +218,7 @@ h6{
 }
 
 #website-info-img-container{
-	padding: 9%;
+	padding: 7%;
 }
 
 #website-info-copy-container{
@@ -274,6 +282,7 @@ h6{
 	text-align: center;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	cursor: pointer;
 }
 
 .sect5-logo img{
@@ -311,7 +320,12 @@ h6{
 }
 
 .sect6-links li{
-	display: inline;	
+	display: inline;
+	cursor: pointer;	
+}
+
+.sect6-links li:hover{
+	text-decoration: underline;	
 }
 
 #sect6-color-footer{
@@ -324,15 +338,17 @@ h6{
 	padding-left: 5%;
 	padding-top: 2%;
 	padding-bottom: 2%;
+	cursor: pointer;
 }
 
 .sect6-title{
-	min-width: 45.01%;
+	min-width: 45%;
 	float: right;
 	padding-left: 5%;
-	padding-top: 3.25%;
-	padding-bottom: 3.25%;
+	padding-top: 3.05%;
+	padding-bottom: 3.05%;
 	color: white;
+	cursor: pointer;
 }
 
 .sect6-body{
@@ -432,6 +448,7 @@ li#man-secure3{
 	text-align: center;
 	padding-top: 5%;
 	padding-bottom: 5%;
+	cursor: pointer;
 }
 
 .sect7-logo img{
@@ -463,7 +480,12 @@ li#man-secure3{
 }
 
 #site-links li{
-	display: inline;	
+	display: inline;
+	cursor: pointer;	
+}
+
+#site-links li:hover{
+	text-decoration: underline;	
 }
 
 li#privacy{
@@ -515,4 +537,5 @@ span#purple{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }

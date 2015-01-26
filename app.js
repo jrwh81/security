@@ -11,6 +11,6 @@ var showApp = angular.module('securityApp', ['ngAnimate'])
 		$scope.currentIP = "192.168.0.1";
 
 		$.get("http://jsonip.com", function(r){
-			$scope.currentIP = r.about;
+			$scope.currentIP = r.ip;
 		});		
 });
